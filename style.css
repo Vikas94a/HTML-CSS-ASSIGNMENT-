@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 95%);
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.background {
+  background-color: hsl(0, 0%, 95%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: auto; */
+  flex-wrap: wrap;
+  flex-shrink: 1;
+}
+
+.carContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px;
+  min-height: 70vh;
+  max-width: 18vw;
+  flex-wrap: wrap;
+}
+
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxary {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.icon {
+  height: 40px;
+  width: 40px;
+}
+
+.headline {
+  text-transform: uppercase;
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.btn {
+  background-color: hsl(0, 0%, 95%);
+  border: none;
+  text-transform: capitalize;
+  text-align: center;
+  border-radius: 50px;
+  max-width: 130px;
+  height: 44px;
+  cursor: pointer;
+}
+
+.btn-se {
+  color: hsl(31, 77%, 52%);
+}
+
+.btn-su {
+  color: hsl(184, 100%, 22%);
+}
+.btn-lu {
+  color: hsl(179, 100%, 13%);
+}
